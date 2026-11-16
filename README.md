@@ -60,7 +60,6 @@ Replaces the old L2TP/VPN approach with a **WebRTC-based peer-to-peer tunnel** t
 | **Auto Clicker** | Configurable left/right auto-clicker with hotkey recording, adjustable interval, and a **Minecraft-foreground guard** (only fires while the game is active). |
 | **Server manager** | Download official Minecraft Server JARs and manage dedicated servers. |
 | **Memory Viewer** | Read/write process memory on a running instance, list memory regions, scan regions, hex dump, optional auto-refresh. |
-| **Minimap** | OpenMCL Minimap — OpenGL-rendered in-game minimap canvas. |
 | **Macro engine** | Low-level hotkey polling + click injection for the game window. |
 
 ### 🧩 Plugin System
@@ -134,13 +133,13 @@ OpenMCL/
 │  ├─ memory_api.py         # unified process memory access
 │  ├─ stealth_memory.py     # low-level memory read/write
 │  ├─ process_isolation.py  # isolated process helper
-│  ├─ minimap.py            # minimap data
+│  ├─ minimap.py            # minimap data(not used)
 │  ├─ vpn_manager.py        # (legacy) VPN module entry
 │  └─ auth.py               # account manager
 ├─ ui/                      # widgets, dialogs, panels
 │  ├─ p2p_widget.py         # P2P client/server panel
 │  ├─ function_widget.py    # Tools: Macro / Multiplayer / Server / Plugins
-│  ├─ minimap_widget.py     # OpenGL minimap
+│  ├─ minimap_widget.py     # OpenGL minimap(not used)
 │  ├─ plugins/              # plugin system + demos
 │  └─ ...
 ├─ i18n/                    # en / zh locales
