@@ -1,4 +1,4 @@
-# OpenMCL
+# Open Minecraft launcher
 
 A modern Minecraft launcher with a **built-in peer-to-peer (WebRTC) network tunnel**, a clean flat dark UI, plugin support, an in-game auto-clicker, memory tools, mod & modpack handling and more.
 
